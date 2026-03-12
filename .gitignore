@@ -1,0 +1,53 @@
+# 1. C++ 编译/链接生成的核心文件
+*.o
+*.obj
+*.out
+*.exe
+*.so
+*.a
+*.dylib
+*.elf
+*.hex
+
+# 2. CMake 构建目录&编译缓存（适配你项目里的build、build_fixed、build_simple）
+build*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+install_manifest.txt
+
+# 3. 编辑器/IDE 临时文件
+# Vim 临时文件（你截图里的 .gitignore.swp 就是这类，自动过滤）
+*.swp
+*.swo
+*~
+# VSCode 配置目录
+.vscode/
+.idea/
+# 其他备份/临时文件
+*.bak
+*.backup
+
+# 4. 日志、测试报告、临时数据文件
+*.log
+test_report.md
+performance_report.md
+*.csv
+*.tmp
+
+# 5. 视频项目专属临时文件
+# 视频分片、上传缓存、处理后的临时视频文件
+uploads/
+temp/
+tmp/
+video_temp/
+processed_videos/
+# 测试生成的临时输出
+test_fix/output/
+tests/output/
+
+# 6. 系统级缓存文件
+.DS_Store
+Thumbs.db
